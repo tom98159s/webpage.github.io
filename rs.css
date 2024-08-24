@@ -611,8 +611,18 @@ input[type="radio"] {
 }
 
 
-@media (max-width:950px){
-
+@media (max-width:800px){
+    .barintro{
+        display: none;
+    }
+    
+    .barintro:hover{
+        display: none;
+    }
+    img{
+        max-width: 100%;
+        
+    }
     #bar{
      display: none;   
     }
