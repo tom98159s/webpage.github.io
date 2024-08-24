@@ -614,7 +614,7 @@ input[type="radio"] {
 @media (max-width:950px){
 
     #bar{
-        position: fixed;
+        
         top: 0%;
         bottom:87%;
         width: 100%;
