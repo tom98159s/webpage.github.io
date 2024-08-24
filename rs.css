@@ -611,7 +611,7 @@ input[type="radio"] {
 }
 
 
-@media (max-width:800px){
+@media (min-width:10000px){
     .barintro{
         display: none;
     }
