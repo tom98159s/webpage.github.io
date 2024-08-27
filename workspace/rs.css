@@ -37,41 +37,54 @@ font-family: "Montserrat", sans-serif;
 }
 #myname{
   
-    padding-top: 10%;
+    
     text-align: center;
     margin-top: 0%;
     margin-bottom: 0%; 
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Times New Roman";
     color: aliceblue;
    
 }
 #about{
-    
+
+    width: 70%;
+    align-items: center;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 40px;
     margin-bottom: 0%; 
-    font-size: 22px;
-    font-family: "Calibri";
+    margin-left: 180px;
+    font-size: 20px;
+    /* font-family: "Calibri"; */
     color: aliceblue
 
 }
 
+#introphoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+  
+}
 #hash{
     text-align: center;
-
-    margin-top: 13%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    margin-top: 60px;
     margin-bottom: 0%; 
     font-family: "Calibri";
     color: aliceblue
 
 }
-.intro{ background: linear-gradient(to right, #0e6474, #072f3c);
-    
-    
+.intro{ 
+    background-image: url("photos/informback.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: block;
     box-shadow:0px 2px 2px rgb(3, 3, 3);
     margin-bottom: 0%; 
-    padding-bottom: 7%; 
+    padding-bottom: 90px; 
 }
 #body{
  margin: 0px;
@@ -100,12 +113,12 @@ padding-top: 0%;
     color: rgb(16, 4, 4);
     font-size: 50px;
     
-    margin:70px 0 70px ;
+    margin:70px 0 10px ;
 
    }
 
 /*nooooo*/
-#prtitle ,#unitytitle,#threedtitle, #pstitle
+#prtitle ,#unitytitle, #pstitle
 {
     background-color: rgba(252, 185, 29, 0.887);
     box-shadow:0px 2px 3px rgba(3, 3, 3, 0.376);
@@ -115,6 +128,17 @@ padding-top: 0%;
     font-family:"Helvetica";
     padding: 6%;
     text-align: center;
+}
+#threedtitle{
+    background-color: rgba(252, 185, 29, 0.887);
+    box-shadow:0px 2px 3px rgba(3, 3, 3, 0.376);
+    color: #fff;
+    font-size : 20px;
+    border-radius: 40px;
+    font-family:"Helvetica";
+    padding: 9px;
+    text-align: center;
+
 }
 
 #unitytitle{
@@ -137,8 +161,9 @@ background: linear-gradient(to right, #9858ff, rgb(66, 72, 250));
 width: 100%;
 justify-content: space-between;
 display: flex;
-margin-bottom: -30px;
-padding-right: 31px;
+margin-bottom: 0px;
+padding-right: 100px;
+padding-left: 50px;
 
 
 }
@@ -196,7 +221,7 @@ margin-top: 13px;
         margin: 0px 0 0 0;
         text-align: center;
         font-size: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
 }
 
 #skillback{
@@ -212,6 +237,7 @@ margin-top: 13px;
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        
         margin-bottom: 15px;
         
      }
@@ -304,7 +330,7 @@ a{
 
 #certitle{
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 50px;
     padding: 70px 0px 0px 0px ;
     margin-bottom: 20px;
@@ -313,7 +339,7 @@ a{
 
 #certifiarea {
 
-background-color:darkslategray;
+
 padding-bottom: 50px;
 margin-bottom: -50px;
 
@@ -505,13 +531,14 @@ border-radius: 20px;
 padding: 10px;
 background-color: rgb(12, 146, 199); 
 }
+
 #thrdmax{
-    padding-left: 40px;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    
     
 }
 
@@ -522,12 +549,13 @@ background-color: rgb(12, 146, 199);
     background-color: rgb(12, 146, 199); 
     }
  #thrdmaya{
-    
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-        color: #fff;
+    padding-left: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+        
         
  }
 
@@ -537,6 +565,11 @@ background-color: rgb(12, 146, 199);
     background-color: rgba(9, 97, 132, 0.699); 
 }
 
+.mayaimg{
+
+    border-radius: 10px;
+    background-color: rgba(9, 97, 132, 0.699); 
+}
 
 
 .contentb5{
