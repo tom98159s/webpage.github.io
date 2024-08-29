@@ -8,24 +8,30 @@ font-family: "Montserrat", sans-serif;
 #bar{
     position: fixed;
     top: 0%;
-    bottom:87%;
-    width: 100vw;
+    bottom:90%;
+    width: 100%;
     z-index: 100;
     display: flex;
+    border-radius: 5px;
+    
     justify-content: center;
-    background-color:rgba(6, 41, 55, 1);
-    box-shadow:0px 2px 3px rgba(3, 3, 3, 0.376);
+    background-color:rgb(57, 62, 63);
+    box-shadow:0px 1px 3px rgba(3, 3, 3, 0.376);
     padding:0px;
     padding-bottom: 0;
+    margin: 0%;
     }
     
 .barintro{
 
     color: white;
     text-decoration: none;
+    
+    font-size: 15px;
+    margin: 7px 0px 0px 0px;
     padding: 10px 20px;
     display: block;
-    font-weight: bold;
+    /* font-weight: bold; */
     
     
 }
@@ -111,8 +117,8 @@ padding-top: 0%;
     
     text-align: center;
     color: rgb(16, 4, 4);
-    font-size: 50px;
-    
+    font-size: 30px;
+    font-style: italic;
     margin:70px 0 10px ;
 
    }
@@ -158,6 +164,7 @@ background: linear-gradient(to right, #9858ff, rgb(66, 72, 250));
 /*nooooo*/
      
 .Professions{
+   
 width: 100%;
 justify-content: space-between;
 display: flex;
@@ -220,17 +227,20 @@ margin-top: 13px;
  {  
         margin: 0px 0 0 0;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
+    font-style: italic;
         margin-bottom: 20px;
 }
 
 #skillback{
+    
     margin-bottom: 140px;
     position:absolute;
     z-index: -1;
     
     }
 .softskills{
+    
     position: relative;
         text-align: center;
         display: flex;
@@ -330,8 +340,9 @@ a{
 
 #certitle{
     text-align: center;
-    color: black;
-    font-size: 50px;
+    color: fff;
+    font-size:30px;
+    font-style: italic;
     padding: 70px 0px 0px 0px ;
     margin-bottom: 20px;
 
@@ -339,13 +350,14 @@ a{
 
 #certifiarea {
 
-
+    
+   
 padding-bottom: 50px;
-margin-bottom: -50px;
+margin-bottom: -10px;
 
 }
 #certifibox{
-    
+
         text-align: center; 
         display: flex;
         align-items: center;
@@ -376,17 +388,19 @@ margin-bottom: -50px;
 #porfoliotitle{
 
     text-align: center;
-    color: rgb(251, 249, 249);
-    font-size: 50px;
-    padding-top: 65px;
-    margin-bottom: 27px;
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 50px;
+    margin-bottom: 40px;
 
 }
 #portfolioarea{
     box-shadow: 0px 2px 1px rgba(15, 10, 15, 0.391);
     background-color:#0e6474;
+    border-radius: 10px 10px 0px 0px; 
    
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
 }
 #portfoliocontent{
@@ -399,7 +413,7 @@ margin-bottom: -50px;
     border-radius: 20px;
     box-shadow:  1px 1px 1px rgba(3, 3, 3, 0.376);
     padding-top:0px;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     margin: 10px 90px 0px 90px;
     height: 100%;
 }
@@ -517,6 +531,7 @@ input#bt4:checked ~.contentb4{
     display: flex;
     background-color: #3a4f4e;
     overflow-x: auto;
+    
     overflow-y: hidden;
     box-shadow: inset 0px 1px 2px rgba(3, 3, 3, 0.708);
     align-items:center;
@@ -613,32 +628,19 @@ input[type="radio"] {
     display: none;
 }
 
-#final{
-    font-size: small;
-    
-    margin:0;
-    width: 100%;
-    height: 500px;
-    box-shadow: inset 0px 2px 1px rgba(15, 10, 15, 0.391);
-    background-color:rgb(134, 108, 108);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
+
 
 #footerdiv{
     display: flex;
     justify-content: center;
     align-items:center;
     justify-content: space-evenly;
-    box-shadow:0px -1px 2px rgb(14, 13, 14);
+    box-shadow:0px -3px 1px rgb(14, 13, 14);
     margin: 0;
     padding: 0px 0px 0px 0px;
     background-color: black;
     color: #fff;
-    height: 100px;
+    height: 70px;
     width: 100%;
     font-size: 15px;
 }
