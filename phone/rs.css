@@ -1,6 +1,5 @@
 
 
-    
 
 *  {
     padding: 0%;
@@ -13,8 +12,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 #container{
@@ -22,7 +21,8 @@ display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: minmax(100px auto);
 background-color: #d9deeb;
-grid-gap: 100px;
+gap: 100px;
+width: 100%;
 }
 
 #bar
@@ -36,7 +36,7 @@ grid-gap: 100px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index:9;
     
 }
 #about{
@@ -89,19 +89,18 @@ text-align: center;
     grid-row: 1;
     display: flex;
     justify-content:space-around;
-    padding: 30px 20px 30px 10px;
+    align-items: center;
     text-decoration: none;
+    margin-top: -100px;
 
 }
 #botton1,#botton2,#botton3{
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: rgb(67, 26, 142);
-    padding: 0px 10px;
+    padding: 5px;
     color: #FFF;
     box-shadow: none;
     border: none;
-    font-size: 20px;
-    
 }
 input{
     display: none;
