@@ -1,8 +1,7 @@
 
 
-@media (max-width:450px) {
     
-}
+
 *  {
     padding: 0%;
     margin: 0%;
@@ -30,10 +29,10 @@ grid-gap: 100px;
     {width: 100%;
     display: flex;
     grid-column: 1;
-    height: 60px;
+    height: 80px;
     position: fixed;
     background-color: #FFF;
-    box-shadow: 0px 0.1px 1px black;
+    box-shadow: -0.5px 0.1px 1px black;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -41,7 +40,7 @@ grid-gap: 100px;
     
 }
 #about{
-    box-shadow: 0px 0.5px 1px black;
+    box-shadow: 0px 0px 25px 20px rgb(255, 255, 255);
     border-radius: 5px ;
     background-image: url("photos/informback.jpg");
     background-size: cover; 
@@ -50,18 +49,19 @@ grid-gap: 100px;
     color: #fff;
     grid-column: 1;
     background-color: antiquewhite;
-    height: 73%;
-    width: 73%;
+    height:70%;
+    width: 80%;
     justify-self: center;
     text-align: left;
-    padding: 30px 10px;
     box-sizing: border-box;
-    margin-top: 100px;
+    margin-top: 160px;
+    
 
 }
 
 #aboutphoto{
-margin-bottom: 20px;
+margin-top: 70px;
+margin-bottom: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -70,6 +70,7 @@ text-align: center;
 #aboutword{
     margin: 0px;
     padding: 0px;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 11px;
 }
@@ -78,23 +79,29 @@ text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr ;
-    background-color: #dbdeff;
+    background-color: #fff;
     justify-content: center;
     width: 100%;
     
 }
 #button{
+    width: 100%;
     grid-row: 1;
     display: flex;
     justify-content:space-around;
-    padding: 20px 20px 20px 10px;
+    padding: 30px 20px 30px 10px;
+    text-decoration: none;
+
 }
 #botton1,#botton2,#botton3{
-    border-radius: 8px;
-    background-color: rgb(86, 27, 196);
+    border-radius: 5px;
+    background-color: rgb(67, 26, 142);
     padding: 0px 10px;
     color: #FFF;
-    font-size: 13px;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    
 }
 input{
     display: none;
@@ -103,12 +110,17 @@ input{
 
 
 #skillsection{
-
+    width: 100%;
     grid-row: 2;
-    height: 200px;
-    background-color: #dbdeff;
+    
+    background-color: #fff;
 }
+#skills{
 
+/* background-color: rgb(45, 20, 121); */
+width: 100%;
+height: 350px;
+}
 
 
 
@@ -126,7 +138,7 @@ input{
     justify-content: center;
     align-items: center;
     grid-column: 1;
-    background-color: rgb(64, 61, 58);
+    background-color: rgb(45, 43, 41);
     grid-template-columns: 1fr 1fr;
     color: #FFF;
 }
@@ -138,6 +150,7 @@ input{
 }
 #footerinform{
     text-align: left;
+    margin-left: 10px;
     padding: 10px;
     grid-column:2;
     box-sizing: border-box;
